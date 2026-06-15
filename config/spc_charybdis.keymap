@@ -2,6 +2,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <0 5 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
