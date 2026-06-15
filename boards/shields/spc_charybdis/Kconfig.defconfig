@@ -23,4 +23,20 @@ if SHIELD_SPC_CHARYBDIS_LEFT || SHIELD_SPC_CHARYBDIS_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_POINTING
+    default y
+
+endif
+
+# ---------------------
+# Kconfig for shield "spc_left" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_SPC_CHARYBDIS_LEFT
+
+config SPI
+    default y
+
+config PMW3610
+    default y
+
 endif
