@@ -1,5 +1,4 @@
 #include "spc_charybdis.dtsi"
-#include "charybdis_pmw3610.dtsi"
 / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -28,9 +27,10 @@
 &physical_layout_spc_charybdis {
     kscan = <&kscan0>;
 };
-
-/* enable the listener on central */
-&trackball_listener {
+// == Input devices ==
+// Input devices on this central part
+// Enabling input listeners and pointing them to the input devices
+&input_listener_left0 {
     status = "okay";
-    device = <&trackball>;
+    device = <&input_device_left0>;
 };
