@@ -65,13 +65,13 @@ config SPI
 #config PMW3610
 #    default y
 
-#config PMW3610_ALT
-#    default y
+config PMW3610_ALT
+    default y
 
-#config ZMK_MOUSE
-#    default y
+config ZMK_MOUSE
+    default y
 
-#config ZMK_EXT_POWER
-#    default y
+config ZMK_EXT_POWER
+    default y
 
 endif
