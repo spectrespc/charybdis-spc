@@ -9,9 +9,9 @@
 //
 
 // pin control for spi0
-// - SCK on P1.02
-// - MOSI on P1.01
-// - MISO on P1.07
+// - SCK on D0
+// - MOSI on D2
+// - MISO on D1
 &pinctrl {
     /* configuration for spi0 device, default state */
     spi0_default: spi0_default {
