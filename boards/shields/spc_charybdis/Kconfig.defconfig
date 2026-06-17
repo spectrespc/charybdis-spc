@@ -62,8 +62,8 @@ if BOARD_NICE_NANO_V2 && SHIELD_SPC_CHARYBDIS_LEFT
 config SPI
     default y
 
-config PMW3610
-    default y
+#config PMW3610
+#    default y
 
 config PMW3610_ALT
     default y
