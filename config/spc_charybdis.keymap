@@ -15,7 +15,7 @@
 &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G         &kp H           &kp J   &kp K         &kp L         &kp SEMICOLON      &kp SINGLE_QUOTE
 &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N           &kp M   &kp COMMA     &kp DOT       &kp RIGHT_BRACKET  &kp SLASH
                                                           &kp W         &kp X
-                                                                        &kp Y         &studio_unlock  &kp A   &kp B
+                                                                        &kp SPACE     &studio_unlock  &kp A   &kp SPACE
                                                                                       &kp C           &kp D
             >;
         };
